@@ -5,6 +5,37 @@ img {
   padding-top: 170px;
 }
 
-div {
-  padding-left; 300px:
+.search {
+  -webkit-appearance: none;
+  display: inline;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #7D7D7D;
+  width: 140px;
+  background-color: #F0F0F0;
+  border: 0px;
+  align-items: center;
+  padding: 11px 12px;
+  border-radius: 2px;
+}
+
+.lucky  {
+  -webkit-appearance: none;
+  display: inline;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #7D7D7D;
+  margin: auto;
+  width: 140px;
+  background-color: #F0F0F0;
+  border: 0px;
+  padding: 11px 12px;
+  border-radius: 2px;
+
+}
+
+.navbar {
+  -webkit-appearance: none;
 }
