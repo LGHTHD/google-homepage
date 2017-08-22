@@ -1,18 +1,73 @@
 .topnav {
-  background-color: ;
-  overflow: hidden;
 
+  position: absolute;
+  right: 40px;
+  top: 0px;
   }
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+  top: 20;
+
+
+}
+
+li  {
+
+  float: right;
+  font-family: arial,sans-serif;
+  text-decoration: none;
+  display: inline;
+  text-align: center;
+
+}
+
+li img  {
+  width: 20px;
+  top: 0px;
+
+}
+
+#signin {
+  -webkit-appearance: none;
+  display: inline;
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 13px;
+  color: #FFFFFF;
+  width: 70px;
+  background-color: #4C80F9;
+  border: 0px;
+  padding: 7px 12px;
+  border-radius: 2px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+
+}
+
+a {
+  color: #696969;
+  text-decoration: none;
+  display: block;
+  padding: 12px
+
+
+}
 
 img {
   display: block;
-  width: 400px;
+  width: 300px;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 160px;
   margin-bottom: 30px;
 }
 
-.button {
+form .button {
   -webkit-appearance: none;
   display: inline;
   font-family: arial,sans-serif;
@@ -54,4 +109,12 @@ input:hover {
   background-position: 10px 10px;
   display: block;
   margin: auto;
+}
+
+#myBottomnav  {
+  background-color: #F0F0F0;
+
+  bottom: 0px;
+  position: absolute;
+  width: 100%;
 }
