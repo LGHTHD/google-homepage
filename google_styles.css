@@ -12,22 +12,19 @@
 ul {
   list-style-type: none;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
-  margin-top: 10px;
-  top: 20;
+  display: block;
 
 
 }
 
 li  {
 
-  float: left;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
   font-family: arial,sans-serif;
   text-decoration: none;
   font-size: 13px;
-
-
 
 }
 
@@ -116,20 +113,34 @@ input:hover {
   margin: auto;
 }
 
-#myBottomnav  {
+div {
+  display: block;
+}
+
+footer  {
   background-color: #F0F0F0;
   border-width: thin;
   border-top-color: #D8D8D8;
   border-left: 0px;
   border-bottom: 0px;
   border-style: solid;
-  bottom: 0px;
-  position: absolute;
-  width: 100%;
-  margin-bottom: 3px;
   font-size: 13px;
+  min-width: 100%;
+  bottom: 0;
+  position: absolute;
 }
 
-#myBottomnav a:hover  {
+.rightfooter  {
+  float: right;
+  padding-right: 30px;
+
+}
+
+.rightfooter a:hover  {
   text-decoration: underline;
+}
+
+.leftfooter {
+  float: left;
+  padding-right: 30px;
 }
