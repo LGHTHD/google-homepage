@@ -5,6 +5,10 @@
   top: 0px;
   }
 
+#myTopnav a:hover {
+  text-decoration: underline;
+}
+
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -18,11 +22,12 @@ ul {
 
 li  {
 
-  float: right;
+  float: left;
   font-family: arial,sans-serif;
   text-decoration: none;
-  display: inline;
-  text-align: center;
+  font-size: 13px;
+
+
 
 }
 
@@ -45,7 +50,7 @@ li img  {
   padding: 7px 12px;
   border-radius: 2px;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 6px;
   margin-left: 10px;
 
 }
@@ -113,8 +118,18 @@ input:hover {
 
 #myBottomnav  {
   background-color: #F0F0F0;
-
+  border-width: thin;
+  border-top-color: #D8D8D8;
+  border-left: 0px;
+  border-bottom: 0px;
+  border-style: solid;
   bottom: 0px;
   position: absolute;
   width: 100%;
+  margin-bottom: 3px;
+  font-size: 13px;
+}
+
+#myBottomnav a:hover  {
+  text-decoration: underline;
 }
